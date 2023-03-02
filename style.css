@@ -1,0 +1,38 @@
+/******************************************
+/* CSS
+/*******************************************/
+
+/* Box Model Hack */
+*{
+  box-sizing: border-box;
+}
+
+/******************************************
+/* LAYOUT
+/*******************************************/
+img{
+  display: block;
+  margin: 0 auto;
+}
+
+
+/******************************************
+/* ADDITIONAL STYLES
+/*******************************************/
+section{
+  margin: auto;
+  width: 15%;
+  height: 250px;
+  background-color: black;
+  border-radius: 5%;
+
+}
+input{
+  width: 100%;
+}
+button{
+  margin-left: 5%;
+  border-radius: 15px;
+  width: 30px;
+  height: 30px;
+}
